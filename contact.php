@@ -99,7 +99,7 @@ include __DIR__ . '/includes/header.php';
             Real people read every message. No ticket numbers, no queue music.
           </h2>
         </div>
-
+  
         <dl class="mt-12 space-y-px">
           <?php foreach ([
               'Email'      => 'hello@ballot.live',
