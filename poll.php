@@ -1,5 +1,4 @@
 <?php
-// poll.php — public poll page with voting + live results
 require __DIR__ . '/config.php';
 
 $slug = trim((string) ($_GET['slug'] ?? ''));
@@ -117,7 +116,6 @@ include __DIR__ . '/includes/header.php';
           </div>
         <?php endif; ?>
 
-        <!-- meta table -->
         <dl class="mt-10 grid grid-cols-2 gap-px border border-line-light bg-line-light sm:grid-cols-4">
           <?php foreach ([
               'Votes'    => nf($res['total']),
